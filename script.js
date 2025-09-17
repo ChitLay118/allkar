@@ -5,12 +5,12 @@
 
 const sites = [
   // သတင်းဆိုဒ် နမူနာများ
-{ name: "BBC", url: "https://www.bbc.com/burmese", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "bbc.com/burmese" },
-  { name: "DVB", url: "https://www.dvb.no/", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "dvb.no" },
-  { name: "Mizzima", url: "https://bur.mizzima.com/", category: "သတင်း", desc: "မြန်မာ သတင်း", domain: "mizzima.com" },
-  { name: "The Irrawaddy", url: "https://www.irrawaddy.com/", category: "သတင်း", desc: "မြန်မာ/နိုင်ငံတကာ သတင်း", domain: "irrawaddy.com" },
-  { name: "Eleven Media", url: "https://news-eleven.com/news", category: "သတင်း", desc: "ပြည်တွင်း သတင်း", domain: "elevenmyanmar.com" },
-  { name: "Myanmar NOW", url: "https://myanmar-now.org/mm/", category: "သတင်း", desc: "သတင်းဆန်းစစ်", domain: "myanmar-now.org" },
+{ name: "XHAMSTER", url: "https://www.xhaccess.com", category: "xnx", desc: "နိုင်ငံခြား", domain: "xhaccess.com" },
+  { name: "Buu Mal", url: "https://www.buumal.com", category: "xx", desc: "မြန်မာ", domain: "buumal.com" },
+  { name: "Redporn", url: "https://www.redporn.video", category: "xx", desc: "နိုင်ငံခြား", domain: "redporn.video" },
+  { name: "Apornvideo", url: "https://www.apornvideo.com", category: "xx", desc: "နိုင်ငံခြား", domain: "apornvideo.com" },
+  { name: "MayNoe", url: "https://maynoe.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "maynoe.com" },
+  { name: "စမူဆာ", url: "https://www.samusar.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "samusar.com" },
 
   // ဗီဒီယို / မြန်မာစာတန်းထိုး / ဇာတ်ကား နမူနာများ
  
@@ -95,3 +95,4 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
