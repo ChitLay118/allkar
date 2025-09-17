@@ -71,23 +71,6 @@ function render(list){
   });
 }
 
-/* search */
-const searchInput = document.getElementById('search');
-searchInput.addEventListener('input', e => {
-  const q = e.target.value.trim().toLowerCase();
-  if(!q){
-    render(sites);
-    return;
-  }
-  const filtered = sites.filter(s => {
-    return s.name.toLowerCase().includes(q)
-      || (s.category||'').toLowerCase().includes(q)
-      || (s.desc||'').toLowerCase().includes(q)
-      || (s.url||'').toLowerCase().includes(q);
-  });
-  render(filtered);
-});
-
 /* on load */
 render(sites);
 
@@ -95,5 +78,6 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
