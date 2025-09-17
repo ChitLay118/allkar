@@ -11,15 +11,11 @@ const sites = [
   { name: "Apornvideo", url: "https://www.apornvideo.com", category: "xx", desc: "နိုင်ငံခြား", domain: "apornvideo.com" },
   { name: "MayNoe", url: "https://maynoe.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "maynoe.com" },
   { name: "စမူဆာ", url: "https://www.samusar.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "samusar.com" },
-
-  // ဗီဒီယို / မြန်မာစာတန်းထိုး / ဇာတ်ကား နမူနာများ
- 
-   { name: "မြန်မာစာတန်းထိုးဇာတ်ကားများ", url: "https://mmsubmovie.com/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "mmsubmovie.com" },
-  { name: "မြန်မာစာတန်းထိုးရုပ်ရှင်", url: "https://yoteshin.net/", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "yoteshin.net" },
-  { name: "Viu (Myanmar)", url: "https://www.viu.com/ott/mm", category: "ဇာတ်ကား", desc: "Asian shows & movies", domain: "viu.com" },
-  { name: "PyonePlay", url: "https://www.pyoneplay.com/", category: "ဇာတ်ကား", desc: "Myanmar TV & drama", domain: "pyoneplay.com" },
-  { name: "ကမ္ဘာ့ချန်နယ်လိုင်းပေါင်းစုံ", url: "https://tv.garden/mm/cdsVyojNjKqygk", category: "Live", desc: "StreamTV", domain: "tv.garden" },
-  { name: "Iflix (example)", url: "https://www.iflix.com/", category: "ဇာတ်ကား", desc: "Movies & series", domain: "iflix.com" }
+  { name: "Apyar", url: "https://apyar.org", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "apyar.org" },
+  { name: "Allgabar", url: "https://allgabar.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "allgabar.com" },
+  { name: "MM Porns", url: "https://mmporns.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "mmporns.com" },
+  { name: "Wone Dine", url: "https://wonedine.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "wonedine.com" },
+  { name: "SarBalGyi", url: "https://sarbalgyi.net", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "sarbalgyi.net" } 
 ];
 
 // grid element
@@ -78,6 +74,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
