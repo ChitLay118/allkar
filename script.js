@@ -4,7 +4,7 @@
 */
 
 const sites = [
-  // သတင်းဆိုဒ် နမူနာများ
+  // xvideos
 { name: "XHAMSTER", url: "https://www.xhaccess.com", category: "xnx", desc: "နိုင်ငံခြား", domain: "xhaccess.com" },
   { name: "Buu Mal", url: "https://www.buumal.com", category: "xx", desc: "မြန်မာ", domain: "buumal.com" },
   { name: "Redporn", url: "https://www.redporn.video", category: "xx", desc: "နိုင်ငံခြား", domain: "redporn.video" },
@@ -95,4 +95,5 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
