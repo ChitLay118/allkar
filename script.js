@@ -17,7 +17,8 @@ const sites = [
   { name: "Wone Dine", url: "https://wonedine.com", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "wonedine.com" },
   { name: "SarBalGyi", url: "https://sarbalgyi.net", category: "ချောင်းရိုက်", desc: "မြန်မာ", domain: "sarbalgyi.net" },
   { name: "မြန်မာစာတန်းထိုးဖူးကား1", url: "https://darkplustv.com/category/uncategorized/", category: "mmsub", desc: "Japan", domain: "darkplustv.com" },
-  { name: "မြန်မာစာတန်းထိုးဖူးကား2", url: "https://xxxmmsub.com/", category: "mmsub", desc: "Japan", domain: "xxxmmsub.com" }
+  { name: "မြန်မာစာတန်းထိုးဖူးကား2", url: "https://xxxmmsub.com/", category: "mmsub", desc: "Japan", domain: "xxxmmsub.com" },
+  { name: "PRED(mmsub)", url: "https://javmyanmar.com/pred-722/", category: "mmsub", desc: "Japan", domain: "javmyanmar.com/pred-722/" }
 ];
 
 // grid element
@@ -76,6 +77,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
