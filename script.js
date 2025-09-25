@@ -5,7 +5,7 @@
 
 const sites = [
   // xvideos
-{ name: "XHAMSTER", url: "https://www.xhaccess.com", category: "xnx", desc: "နိုင်ငံခြား", domain: "xhaccess.com" },
+  { name: "XHAMSTER", url: "https://www.xhaccess.com", category: "xnx", desc: "နိုင်ငံခြား", domain: "xhaccess.com" },
   { name: "Buu Mal", url: "https://www.buumal.com", category: "xx", desc: "မြန်မာ", domain: "buumal.com" },
   { name: "Redporn", url: "https://www.redporn.video", category: "xx", desc: "နိုင်ငံခြား", domain: "redporn.video" },
   { name: "Apornvideo", url: "https://www.apornvideo.com", category: "xx", desc: "နိုင်ငံခြား", domain: "apornvideo.com" },
@@ -20,7 +20,8 @@ const sites = [
   { name: "မြန်မာစာတန်းထိုးဖူးကား2", url: "https://xxxmmsub.com/", category: "mmsub", desc: "Japan", domain: "xxxmmsub.com" },
   { name: "PRED(mmsub)", url: "https://javmyanmar.com/pred-722/", category: "mmsub", desc: "Japan", domain: "javmyanmar.com/pred-722/" },
   { name: "MMSUB", url: "https://mmsub.org/", category: "mmsub", desc: "all", domain: "mmsub.org" },
-  { name: "ကိုးရီးယားမြန်မာစာတန်းထိုး", url: "https://myanmarsexstory.com/category/korea18/", category: "mmsub", desc: "korea", domain: "myanmarsexstory.com/category/korea18/" }
+  { name: "ကိုးရီးယားမြန်မာစာတန်းထိုး", url: "https://myanmarsexstory.com/category/korea18/", category: "mmsub", desc: "korea", domain: "myanmarsexstory.com/category/korea18/" },
+  { name: "ရုပ်ပြ", url: "https://yotepya.com/", category: "read", desc: "cartom", domain: "yotepya.com" }
 ];
 
 // grid element
@@ -79,6 +80,7 @@ render(sites);
    - sites array ကို ဖိုင်ရှင်းပေါ်က JSON ဖိုင်တစ်ခုနဲ့ ထည့်ချင်တယ်ဆိုရင် fetch() သုံးပြီး ပြောင်းလဲနိုင်သည်။
    - Icon မပြနိုင်ပါက default placeholder ထည့်လိုပါက makeCard() ထဲမှာ စစ်ပြီး image.onerror သတ်မှတ်နိုင်သည်။
 */
+
 
 
 
